@@ -4,7 +4,7 @@ block_cipher = None
 
 
 a = Analysis(['booktool.py'],
-             pathex=['/home/master/booktool'],
+             pathex=['C:\\Users\\engan\\Documents\\booktool'],
              binaries=[],
              datas=[],
              hiddenimports=[],
@@ -26,7 +26,7 @@ exe = EXE(pyz,
           bootloader_ignore_signals=False,
           strip=False,
           upx=True,
-          console=True )
+          console=False )
 coll = COLLECT(exe,
                a.binaries,
                a.zipfiles,

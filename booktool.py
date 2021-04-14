@@ -43,8 +43,8 @@ class MyFrame(wx.Frame):
         nav_left.Bind(wx.EVT_BUTTON, self.left)
         nav_right.Bind(wx.EVT_BUTTON, self.right)
 
-        navigation_box.Add(nav_left, proportion=1, flag=wx.ALIGN_LEFT | wx.LEFT)
-        navigation_box.Add(nav_right, proportion=1, flag=wx.ALIGN_RIGHT | wx.LEFT)
+        navigation_box.Add(nav_left, proportion=1, flag=wx.LEFT)
+        navigation_box.Add(nav_right, proportion=1, flag=wx.LEFT)
 
         output_box.Add(navigation_box, flag=wx.LEFT | wx.RIGHT | wx.EXPAND)
         output_box.Add(self.output, proportion=1, flag=wx.LEFT | wx.RIGHT | wx.TOP | wx.BOTTOM | wx.EXPAND)
