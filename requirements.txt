@@ -1,0 +1,2 @@
+wxPython~=4.0.7.post2
+cx_Freeze
